@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "822477564362",
+    "firebase_url": "https://music-2cd36-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "music-2cd36",
+    "storage_bucket": "music-2cd36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822477564362:android:46bff56d0b169369090733",
+        "android_client_info": {
+          "package_name": "com.truongcongphi.mymusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822477564362-0tv8udmluro5b2119gudksft1tbp4456.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT4iD71CbNgSPqMOHOpmp-UcMH-vJOpqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822477564362-0tv8udmluro5b2119gudksft1tbp4456.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

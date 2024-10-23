@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_32dp">32dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="button_textsize_20sp">20sp</dimen>
+    <dimen name="tv_email_pass_28sp">28sp</dimen>
+    <dimen name="magrin_left_14dp">14dp</dimen>
+    <dimen name="margin_top">40dp</dimen>
+</resources>

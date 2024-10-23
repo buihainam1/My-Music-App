@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/bg_color"
+    >
+
+    <LinearLayout
+        android:id="@+id/linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="14dp"
+        >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:text="Ngày mới vui vẻ !!"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <ImageButton
+                android:id="@+id/img_setting"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_setting"
+                android:layout_centerInParent="true"
+                android:layout_alignParentEnd="true"
+                />
+    </RelativeLayout>
+        <fragment
+            android:id="@+id/fragment_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.truongcongphi.mymusic.Fragment.TopFragment"
+            ></fragment>
+        <fragment
+            android:id="@+id/fragment_daily_mix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.truongcongphi.mymusic.Fragment.DailyMixFragment"
+            ></fragment>
+        <fragment
+            android:id="@+id/fragment_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.truongcongphi.mymusic.Fragment.AlbumFragment"
+            ></fragment>
+        <fragment
+            android:id="@+id/fragment_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.truongcongphi.mymusic.Fragment.ArtistFragment"
+            ></fragment>
+
+
+    </LinearLayout>
+
+</ScrollView>
